@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="CSS/styles.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <title>STEM Seminar</title>
+</head>
+<body>
+    <!-- This project is about a seminar where I will be teach web but the core purpose of this -->
+    <!-- seminar is to educate the young youths on the importance of STEM (Science, Technology, Engineering, and Mathematics) and -->
+    <!-- focusing on the technological parts where the other tutors will teach embedded systems, internet of things and robotics -->
+    <!-- I will start with a navbar section with different links -->
+     <!-- let's use bootstrap for the project -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">STEM Seminar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#schedule">Schedule</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#topics">Topics</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#speakers">Speakers</a>
+                  </li>
+              </ul>
+              <div class="btn"><a href="#registration" class="btn btn-light btn-lg">Register Now</a></div>
+          </div>
+          
+      </nav>
+    <!-- Hero Section -->
+    <header class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to the STEM Seminar</h1>
+            <p class="lead">Empowering the next generation through Science, Technology, Engineering, and Mathematics</p>
+            <a href="#registration" class="btn btn-light btn-lg">Register Now</a>
+        </div>
+    </header>
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About the Seminar</h2>
+            <p class="text-center">This seminar aims to inspire and educate young minds about the importance of STEM fields. We will cover various topics including web development, embedded systems, IoT, and robotics.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Why STEM?</h3>
+                    <p>STEM education is crucial for developing critical thinking, problem-solving skills, and innovation. It prepares students for future careers in technology and engineering.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>What to Expect</h3>
+                    <p>Participants will engage in hands-on workshops, interactive sessions, and discussions with industry experts. The seminar is designed for students of all levels.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Who Should Attend?</h3>
+                    <p>This seminar is ideal for students, educators, and anyone interested in learning more about STEM fields. No prior experience is required.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Contact Us</h3>
+                    <p>If you have any questions or need more information, feel free to reach out to us at <a href="mailto:info@stemseminar.com">info@stemseminar.com</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Schedule Section -->
+    <section id="schedule" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Seminar Schedule</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Day 1: Introduction to Web Development</li>
+                <li class="list-group-item">Day 2: Embedded Systems Basics</li>
+                <li class="list-group-item">Day 3: IoT and Smart Devices</li>
+                <li class="list-group-item">Day 4: Robotics and Automation</li>
+            </ul>
+        </div>
+    </section>
+    <!-- Topics section -->
+    <section id="topics" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Seminar Topics</h2>
+            <p class="text-center">Explore the latest trends and technologies in STEM fields through our diverse range of topics.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Embedded Systems">
+                        <div class="card-body">
+                            <h5 class="card-title">Embedded Systems</h5>
+                            <p class="card-text">Learn about the design and implementation of embedded systems in various applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="IoT">
+                        <div class="card-body">
+                            <h5 class="card-title">Internet of Things (IoT)</h5>
+                            <p class="card-text">Explore the world of IoT and how it connects devices and systems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Robotics">
+                        <div class="card-body">
+                            <h5 class="card-title">Robotics</h5>
+                            <p class="card-text">Dive into the field of robotics and learn about automation and control systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Additional topics can be added here -->
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Web Development">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Get hands-on experience in building modern web applications using HTML, CSS, and JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Web Development">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Get hands-on experience in building modern web applications using HTML, CSS, and JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Web Development">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Get hands-on experience in building modern web applications using HTML, CSS, and JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <!-- Speakers Section -->
+    <section id="speakers" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Meet Our Speakers</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Speaker 1">
+                        <div class="card-body">
+                            <h5 class="card-title">John Doe</h5>
+                            <p class="card-text">Expert in Web Development and Programming Languages.</p>
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Speaker 1">
+                        <div class="card-body">
+                            <h5 class="card-title">John Doe</h5>
+                            <p class="card-text">Expert in Web Development and Programming Languages.</p>
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Speaker 1">
+                        <div class="card-body">
+                            <h5 class="card-title">John Doe</h5>
+                            <p class="card-text">Expert in Web Development and Programming Languages.</p>
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Registration Section -->
+    <section id="registration" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Register for the Seminar</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="affiliation">Affiliation</label>
+                    <input type="text" class="form-control" id="affiliation" placeholder="Enter your affiliation" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 STEM Seminar. All rights reserved.</p>
+        <p>Follow us on 
+            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a> 
+            <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+        </p>
+    </footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</html>
